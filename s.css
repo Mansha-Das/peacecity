@@ -1,0 +1,127 @@
+*{ margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/originals/53/41/6e/53416e4be02b0844b42554b2e3ba7828.jpg');
+   background-clip: text;
+   background-size: cover;
+   background-attachment: fixed;
+}
+:root{
+    --primary-text-color:#008000;
+    --default-margin:20px
+}
+aside {
+    width: 10%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+   margin-top: auto;
+  }
+
+.container {
+    min-height: 100vh;
+    padding: 40px;
+}
+.con{
+    min-width: none;
+    font-size: 23px;
+}
+.con p{
+color:white;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.con h1{
+    text-align: center;
+    color: rgb(188, 227, 238); 
+}
+.con1{
+   font-size: 23px;
+    
+}
+.con1 p{
+color:white;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+.con1 h1{
+    text-align: center;
+    color: aquamarine; 
+}
+.box{
+    padding: 10px;
+    height: 200px;
+    margin-block: var(--default-margin);
+    border-radius: var(--default-margin);
+    overflow: scroll;}
+.box h2{
+    margin-bottom: var(--default-margin);
+   
+}
+.box p{
+    background-color: var(--background-color);
+color:white;
+font-size: 25px;
+}
+.img1,.img2,.img3,.img4{
+    float: left;
+    width: 300px;
+    margin-right:20px ;
+}
+a{
+    color: aqua;
+}
+.box a{
+    color: aqua;
+}
+.con2{
+    font-size: 23px;
+     
+ }
+ .con2 p{
+ color:white;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ 
+     
+ }
+ .con2 h1{
+     text-align: center;
+     color: aquamarine; 
+ }
+.food{
+    font-size: 20px; 
+    color:aquamarine;
+}
+.box1{
+    padding: 10px;
+    height: 200px;
+    margin-block: var(--default-margin);
+    border-radius: var(--default-margin);
+    overflow: scroll;
+}
+.box1 h2{
+    margin-bottom: var(--default-margin);
+   
+}
+.box1 p{
+    background-color: var(--background-color);
+color:white;
+font-size: 25px;
+}
+ul{
+    list-style: none;
+    text-align: right;
+    padding: 5px;
+    color: black;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+}
+li{
+    display: inline;
+    }
+li a:hover:not(.active) {
+    background-color: goldenrod;
+  }
